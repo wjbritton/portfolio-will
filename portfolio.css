@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.section { 
+.section {
     text-align:center;
     padding: 2%;
     margin: 5%;
@@ -32,7 +32,7 @@
 .icon-footer {
    color:yellow;
     margin:0;
-    padding:8%; 
+    padding:8%;
 }
 
 .img-marketing {
@@ -64,12 +64,17 @@
     font-size: 2.5em;
      color: yellow;
   text-shadow:
-   -2px -2px 0 #000,  
+   -2px -2px 0 #000,
     2px -2px 0 #000,
     -2px 2px 0 #000,
      2px 2px 0 #000;
 }
 
+.year {
+  font-size: 27px;
+  font-weight: 300;
+  color:yellow;
+}
 
 h1 {
     padding:0;
@@ -77,7 +82,7 @@ h1 {
     font-size: 4em;
      color: white;
   text-shadow:
-   -2px -2px 0 #000,  
+   -2px -2px 0 #000,
     2px -2px 0 #000,
     -2px 2px 0 #000,
      2px 2px 0 #000;
@@ -93,12 +98,27 @@ i {
     padding:10%;
 }
 
-li {text-align:left; font-size:18px; padding:2px 0 0 0; color:black;}
+li {
+  text-align:left;
+  font-size:21px;
+  padding: 1em 0 0 0;
+  color:white;
+  text-shadow:
+   -1px -1px #000,
+    1px -1px #000,
+    -1px 1px #000,
+     1px 1px #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
 body {
     background-image: url("photos/sky.jpg");
     background-color: #cccccc;
     padding: 25px;
-    
+
 }
 
 #img-marketing-automation:hover {
